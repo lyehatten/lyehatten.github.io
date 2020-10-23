@@ -1,7 +1,12 @@
+#projects{
+    padding: 40px;
+    padding-top: 70px;
+
+}
 .projectLinks{
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .thumbnail{
