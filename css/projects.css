@@ -1,0 +1,39 @@
+.projectLinks{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.thumbnail{
+    margin: 20px;
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    filter: grayscale(100%);
+    transition: filter 0.5s ease-in-out;
+    background-size: 100%;
+}
+.thumbnail:hover{
+    filter: grayscale(0%);
+}
+
+.CSScreature{
+    background-image: url("../assets/CSScreature.gif");
+
+}
+
+.APIprojectOne{
+    background-image: url("../assets/apichal1.gif");
+}
+
+.blueBadgeTBA{
+    background-image: url("../assets/badges-webdev_blue.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.redBadgeTBA{
+    background-image: url("../assets/badges-webdev_red.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
