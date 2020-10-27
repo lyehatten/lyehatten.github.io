@@ -27,6 +27,10 @@
 
 }
 
+.staticLayout{
+    background-image: url("../assets/staticLayout.png");
+}
+
 .APIprojectOne{
     background-image: url("../assets/apichal1.gif");
 }

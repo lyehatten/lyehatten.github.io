@@ -5,3 +5,9 @@ nav{
 nav a {
     color: white;
 }
+.icon{
+    width: 20px;
+  height: 2px;
+  background-color: white;
+  margin: 3px 0;
+}

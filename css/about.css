@@ -1,6 +1,16 @@
 #about{
     background-color: whitesmoke;
-    border: wheat 2px solid;
     padding: 40px;
     padding-top: 70px;
+}
+
+.portrait{
+    width: 100%;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+.resume{
+    text-align: center;
+    justify-self: center;
 }
