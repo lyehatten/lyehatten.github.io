@@ -3,6 +3,12 @@
     padding-top: 70px;
 
 }
+
+h6 {
+    color: white;
+    margin-left: 30px;
+}
+
 .projectLinks{
     display: flex;
     flex-wrap: wrap;
@@ -13,10 +19,11 @@
     margin: 20px;
     height: 300px;
     width: 300px;
-    background-color: white;
     filter: grayscale(100%);
     transition: filter 0.5s ease-in-out;
     background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .thumbnail:hover{
     filter: grayscale(0%);
@@ -35,14 +42,57 @@
     background-image: url("../assets/apichal1.gif");
 }
 
+.APIprojectTwo{
+    background-image: url("../assets/api_chall_two.gif");
+}
+
 .blueBadgeTBA{
     background-image: url("../assets/badges-webdev_blue.png");
-    background-position: center;
-    background-repeat: no-repeat;
+    background-color: white;
 }
 
 .redBadgeTBA{
     background-image: url("../assets/badges-webdev_red.png");
-    background-position: center;
-    background-repeat: no-repeat;
+    background-color: white;
 }
+
+.myEP{
+    background-image: url("../assets/epPic.jpg");
+}
+
+.tinyDesk{
+    background-image: url("../assets/tinyDesk.png");
+}
+
+.info{
+    text-align: center;
+    background-color: rgba(105, 105, 105, 0.534);
+    position: absolute;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+    transition: opacity 0.7s ease-in-out;
+    opacity: 0;
+    color: white;
+    padding: 10px;
+    padding-top: 40px;
+    text-shadow:
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+}
+
+a {
+    color: rgb(216, 216, 216);
+}
+
+a:hover{
+    color: white;
+}
+
+.info:hover{
+    opacity: 1;
+}
+
