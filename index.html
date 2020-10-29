@@ -47,7 +47,7 @@
     <!-- ABOUT -->
     <div id="about">
       <h1>about me.</h1>
-        <div class="container">
+        <div class="container aboutContent">
             <div class="row">
                 <div class="col-sm-5">
                     <p>I'm levi hatten, a student at swarthmore college
@@ -75,7 +75,7 @@
                       music! if you are interested)
                     </p>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-3 lastCol">
                   <img class= "portrait" src="assets/portrait.jpeg">
                   <a href="assets/LH_Resumesummer w references.pdf" download>
                   <button type="button" class="btn btn-outline-dark resume">download my resume</button>
@@ -95,7 +95,6 @@
             <br>
             <p>created a creature completely out of css and html.
               <br>
-              <br>
               I made a dog and it even wags its tail! <br> <br>
               <a href="https://codepen.io/lynqux/full/poboOQW" target="_blank">check it out on codepen here!</a>
             </p>
@@ -113,50 +112,86 @@
           </div>
         </div>
         <div class="APIprojectOne thumbnail">
-          <div class="info"></div>
+          <div class="info">
+            <h4>ghibli api</h4>
+            <br>
+            <p>practiced getting information from an api and displaying it with dom manipulation.</p>
+            <br>
+            <a href="https://lynqux.github.io/API_Challenge_1/" target="_blank">find the full page here!</a>
+          </div>
         </div>
         <div class="APIprojectTwo thumbnail">
-          <div class="info"></div>
+          <div class="info">
+            <h4>gif search</h4>
+            <br>
+            <p>practiced getting information from an api with a key. <br>search any word or phrase and get a relevant gif/sticker.</p>
+            <a href="https://lh-api-challenge-2.web.app/" target="_blank">try it yourself here!</a>
+          </div>
         </div>
         <div class="blueBadgeTBA thumbnail">
-          <div class="info"></div>
+          <div class="info">
+            <h4>blue badge projects</h4>
+            <br>
+            <p>tba</p>
+          </div>
         </div>
         <div class="redBadgeTBA thumbnail">
-          <div class="info"></div>
+          <div class="info">            
+            <h4>red badge projects</h4>
+            <br>
+            <p>tba</p></div>
         </div>
         <div class="myEP thumbnail">
-          <div class="info"></div>
+          <div class="info">
+            <h4>sad songs for the season</h4>
+            <br>
+            <p>an ep I recorded in highschool <br><i class="finePrint">fyi this contains older songs! my sound is much different now</i></p>
+            <a href="https://lyehatten.bandcamp.com/album/sad-songs-for-the-season" target="_blank">check out my ep here!</a>
+          </div>
         </div>
         <div class="tinyDesk thumbnail">
-          <div class="info"></div>
+          <div class="info">
+            <h4>nppr tiny desk</h4>
+            <br>
+            <p>some friends made their own tiny desk series and I got to perform! it was loads of fun.</p>
+            <br>
+            <a href="https://www.youtube.com/watch?v=tUxIAhkI4DY&ab_channel=NPPRTinyDesk" target="_blank">check it out here!</a>
+          </div>
         </div>
       </div>
     </div>
     
 <div id="contact">
   <h1>contacts</h1>
-  <div class="container">
+  <div class="container contactStuff">
     <div class="row">
-      <div class="col-sm-6">
+      <div class="col-sm-6 emailform">
+        <h5>send an email!</h5>
+        <br>
         <form action="https://formspree.io/f/xzbkrzzb" method="POST">
-          <label>
-            <input type="text" placeholder="your name" name="name">
-          </label>
-          <label>
-              <input type="text" placeholder="your email" name="_replyto">
-          </label>
-          <label>
-            <input type="text" placeholder="subject" name="subject">
-          </label>
-          <label>
-              <textarea name="message" placeholder="your message:"></textarea>
-          </label>
-          <button type="submit">send</button>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+                <input type="text" class="form-control" placeholder="your name" name="name">
+            </div>
+            <div class="form-group col-md-6">
+                  <input type="text" class="form-control" placeholder="your email" name="_replyto">
+            </div>
+          </div>
+          <div class="form-group ">
+                <input type="text" class="form-control" placeholder="subject" name="subject">
+          </div>
+          <div class="form-group">
+                <textarea name="message" class="form-control" placeholder="your message"></textarea>
+          </div>
+            <button type="submit" class="btn btn-outline-dark">send</button>
         </form>
       </div>
           
-          <div class="col-sm-6">
-            <p>links like linkedin github bandcamp</p>
+          <div class="col-sm-6 logos">
+            <h5>find me on:</h5>
+            <a href="https://www.linkedin.com/in/levi-hatten/" target="_blank"> <img alt="linkedin logo" class="logo" src="assets/linkedinLogo.png"> </a>
+            <a href="https://github.com/lynqux" target="_blank"><img alt="githublogo" src="assets/githubLogo.png" class="logo"></a>
+            <a href="https://lyehatten.bandcamp.com/" target="_blank"><img alt="bandcamp logo" src="assets/bcLogo.png" class="logo"></a>
           </div>
     </div>
   </div>     
@@ -166,7 +201,7 @@
     
     <div class="footer">
 
-        <p>levi hatten 2020</p>
+        <p >levi hatten - 2020</p>
 
 
     </div>

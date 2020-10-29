@@ -1,7 +1,16 @@
 #about{
     background-color: whitesmoke;
+    min-height: 100vh;
     padding: 40px;
     padding-top: 70px;
+}
+
+.aboutContent{
+    margin-top: 40px;
+}
+
+.lastCol{
+    text-align: center;
 }
 
 .portrait{
