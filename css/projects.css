@@ -89,11 +89,11 @@ h6 {
     font-size: x-small;
 }
 
-a {
+.info a {
     color: rgb(216, 216, 216);
 }
 
-a:hover{
+.info a:hover{
     color: white;
 }
 
@@ -101,3 +101,13 @@ a:hover{
     opacity: 1;
 }
 
+.arrowProjects{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#projectArrow {
+    color: white;
+}

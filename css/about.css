@@ -3,9 +3,12 @@
     min-height: 100vh;
     padding: 40px;
     padding-top: 70px;
+    position: relative;
 }
 
-.aboutContent{
+.arrowAbout{
+    display: flex;
+    justify-content: center;
     margin-top: 40px;
 }
 
@@ -22,4 +25,8 @@
 .resume{
     text-align: center;
     justify-self: center;
+}
+
+#about a{
+    color: black;
 }
