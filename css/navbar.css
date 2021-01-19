@@ -5,6 +5,11 @@ nav{
 nav a {
     color: white;
 }
+
+nav a:hover{
+    color: white;
+} 
+
 .icon{
     width: 20px;
   height: 2px;
